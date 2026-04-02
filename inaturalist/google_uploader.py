@@ -372,8 +372,9 @@ if __name__ == "__main__":
     # Search for observations (example: bark beetles)
     print("\nStep 1: Searching for observations...")
     observations = uploader.search_observations(
-        taxon_name="bark beetle",  # or use taxon_id=12345
+        taxon_name="Scolytinae",  # or use taxon_id=12345
         per_page=10,
+        place_id=3,
         quality_grade="research"
     )
     
